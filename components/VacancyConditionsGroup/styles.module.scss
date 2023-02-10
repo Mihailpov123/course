@@ -1,0 +1,23 @@
+@import "scss/vars";
+
+.conditions {
+	margin-top: 32px;
+	
+	&__title {
+		font-family: $font-family-medium;
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-default;
+		letter-spacing: 0.01em;
+	}
+
+	&__dash {
+		color: $color-orange;
+	}
+	
+	&__item {
+		color: $color-add-smoke;
+		font-size: $font-size-default;
+		line-height: 24px;
+		letter-spacing: 0.01em;
+	}
+}

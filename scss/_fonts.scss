@@ -1,0 +1,5 @@
+@import "mixins/fontface";
+
+@include fontface("StolzlRegular");
+
+@include fontface("StolzlMedium");

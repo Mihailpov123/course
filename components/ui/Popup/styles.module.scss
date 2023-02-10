@@ -1,0 +1,53 @@
+@import "scss/vars";
+
+.popup {
+	box-sizing: border-box;
+	position: relative;
+	width: 848px;
+	height: 100vh;
+	padding: 40px 56px 64px;
+	border: 1px solid #3b4c64;
+	background-color: $color-dark-blue;
+	overflow-y: scroll;
+
+	&__wrap {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 1;
+		background-color: rgba(5,17,38, 0.85);
+	}
+}
+
+.iconClose {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.title {
+	margin-bottom: 40px;
+	font-family: $font-family-medium;
+	font-size: $font-size-big;
+	text-align: center;
+	line-height: $line-height-small;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+	height: 374px;
+	margin-bottom: 40px;
+}
+
+.content {
+	font-size: $font-size-extra-medium;
+	line-height: $line-height-default;
+}

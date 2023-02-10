@@ -1,0 +1,5 @@
+export { default as IconCheck } from './IconCheck.svg'
+export { default as IconFinance } from './IconFinance.svg'
+export { default as IconOrder } from './IconOrder.svg'
+export { default as IconQuality } from './IconQuality.svg'
+export { default as IconRocket } from './IconRocket.svg'

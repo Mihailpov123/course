@@ -1,0 +1,23 @@
+@import "scss/vars";
+
+.number-block {
+	box-sizing: border-box;
+	width: 427px;
+	height: 308px;
+	padding: 48px;
+	outline: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.number {
+	margin-bottom: 24px;
+	color: $color-orange;
+	font-family: $font-family-medium;
+	font-size: 120px;
+	line-height: 100%;
+}
+
+.content {
+	max-width: 212px;
+	font-size: $font-size-mini-big;
+	line-height: $line-height-small;
+}

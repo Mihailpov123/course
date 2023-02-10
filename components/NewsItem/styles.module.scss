@@ -1,0 +1,34 @@
+@import "../../scss/vars";
+
+.news-item {
+	box-sizing: border-box;
+	width: 320px;
+	height: 450px;
+	padding: 32px;
+	outline: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.image {
+	position: relative;
+	height: 185px;
+	margin-bottom: 24px;
+}
+
+.title {
+	margin-bottom: 4px;
+	font-family: $font-family-medium;
+	font-size: $font-size-extra-medium;
+	line-height: $line-height-small;
+}
+
+.date {
+	margin-bottom: 24px;
+	color: $color-smoke;
+	font-size: $font-size-extra-light;
+	line-height: 20px;
+}
+
+.btnMore {
+	padding: 0 18px;
+	font-size: $font-size-light;
+}

@@ -1,0 +1,74 @@
+@import "scss/vars";
+
+.wrap {
+	position: relative;
+	width: 100%;
+	height: 62px;
+}
+
+.input {
+	box-sizing: border-box;
+	width: inherit;
+	height: inherit;
+	padding: 0px 24px;
+	border: none;
+	outline: none;
+	background-color: $color-dark-smoke;
+	border-radius: 2px;
+	color: $color-white;
+	font-size: $font-size-extra-medium;
+	line-height: 126%;
+
+	&::placeholder {
+		color: $color-smoke;
+		font-size: $font-size-extra-medium;
+		line-height: 126%;
+	}
+
+	&--error {
+		border: 1px solid $color-red;
+		
+		// &~ .placeholder {
+		// 	color: $text-color-error-tint-220;
+		// }
+		
+		// &:focus {
+		// 	border: 1px solid $border-color-error-tint-220;
+		
+		// 	&~ .placeholder {
+		// 		color: $text-color-error-tint-220;
+		// 	}
+		// }
+	}
+}
+
+// 	&:not(:placeholder-shown)~.placeholder,
+// 	&:focus~.placeholder {
+// 		height: 19px;
+// 		transform: translateY(-10px);
+// 		background: #ffffff;
+// 	}
+
+// 	&--placeholder {
+
+// 		&:focus {
+// 			border: 1px solid $border-color-theme-tint-200;
+
+// 			&~.placeholder {
+// 				color: $text-color-theme-tint-170;
+// 				font-size: $font-size-extra-small;
+// 				line-height: $line-height-extra-large;
+// 			}
+// 		}
+// 	}
+
+// 	&:disabled {
+// 		background: #ffffff;
+// 	}
+
+// 	&:-webkit-autofill,
+// 	&:-webkit-autofill:hover,
+// 	&:-webkit-autofill:focus {
+// 		box-shadow: 0 0 0px 1000px $background-color-tint-255 inset;
+// 	}
+// }

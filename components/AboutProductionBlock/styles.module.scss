@@ -1,0 +1,28 @@
+@import "scss/vars";
+
+.about-production-block {
+	box-sizing: border-box;
+	width: 427px;
+	padding: 40px;
+	outline: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.image {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	margin-bottom: 32px;
+}
+
+.title {
+	margin-bottom: 32px;
+	font-family: $font-family-medium;
+	font-size: 30px;
+	line-height: $line-height-small;
+}
+
+.btnMore {
+	padding: 0 18px;
+	font-size: $font-size-normal;
+	line-height: $line-height-small;
+}

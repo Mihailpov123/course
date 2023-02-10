@@ -1,0 +1,38 @@
+@import "../../scss/vars";
+
+.banner {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1280px;
+	height: 438px;
+	margin: 0 auto;
+}
+
+.content {
+	max-width: 525px;
+}
+
+.title {
+	margin: 40px 0px 16px;
+	font-family: $font-family-medium;
+	font-size: $font-size-big;
+	line-height: $line-height-small;
+}
+
+.description {
+	margin-bottom: 40px;
+	font-size: $font-size-default;
+	line-height: $line-height-default;
+}
+
+.buttons {
+	display: flex;
+	column-gap: 16px;
+}
+
+.image {
+	position: relative;
+	width: 665px;
+	height: 373px;
+	margin-top: 40px;
+}

@@ -1,0 +1,113 @@
+@import "scss/vars";
+
+.about-page {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 56px 0 120px;
+
+	&__wrap {
+		background-color: $color-light-blue;
+	}
+}
+
+.title {
+	margin-bottom: 32px;
+	font-family: $font-family-medium;
+	font-size: $font-size-extra-big;
+	line-height: $line-height-small;
+}
+
+.numbers {
+	display: flex;
+	gap: 1px;
+}
+
+.aboutCompanyBlocks {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1px;
+}
+
+.aboutBlocks {
+
+}
+
+.about-company-block {
+	display: flex;
+	column-gap: 1px;
+	
+	&--reverse {
+		flex-direction: row-reverse;
+	}
+}
+
+.block {
+	box-sizing: border-box;
+	width: 50%;
+	height: 418px;
+	outline: 1px solid rgba(255, 255, 255, 0.1);
+
+	&--text {
+		padding: 48px 48px 64px;
+	
+		background-color: $color-dark-blue;
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-default;
+	}
+
+	&--image {
+		padding: 48px;
+	}
+}
+
+.image {
+	position: relative;
+	height: 100%;
+}
+
+.warranty {
+	display: flex;
+	height: 418px;
+	margin-bottom: 120px;
+	column-gap: 1px;
+
+	&__leftArea {
+		box-sizing: border-box;
+		width: 429px;
+		padding: 48px;
+		outline: 1px solid rgba(255, 255, 255, 0.15);
+	}
+
+	&__title {
+		font-family: $font-family-medium;
+		font-size: $font-size-mini-big;
+		line-height: $line-height-light;
+	}
+
+	&__item {
+		display: flex;
+		margin-top: 30px;
+		column-gap: 10px;
+	}
+
+	&__dash {
+		width: 20px;
+		height: 1px;
+		margin-top: 12px;
+		background-color: $color-orange;
+	}
+
+	&__content {
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-small;
+	}
+
+	&__rightArea {
+		flex: 1;
+		padding: 48px;
+		outline: 1px solid rgba(255, 255, 255, 0.15);
+		background-color: $color-dark-blue;
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-default;
+	}
+}

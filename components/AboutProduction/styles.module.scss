@@ -1,0 +1,14 @@
+@import "../../scss/vars";
+
+.title {
+	margin-bottom: 32px;
+	font-family: $font-family-medium;
+	font-size: $font-size-extra-big;
+	line-height: $line-height-small;
+}
+
+.blocks {
+	display: flex;
+	gap: 1px;
+	min-height: 600px;
+}

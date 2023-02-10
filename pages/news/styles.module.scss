@@ -1,0 +1,42 @@
+@import "scss/vars";
+
+.news {
+	width: 960px;
+	padding: 40px 112px 56px 56px;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+
+	&__wrap {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 56px 0 102px;
+	}
+}
+
+.title {
+	margin-bottom: 8px;
+	font-family: $font-family-medium;
+	font-size: $font-size-semi-big;
+	line-height: $line-height-small;
+}
+
+.date {
+	margin-bottom: 32px;
+	color: $color-orange;
+	font-family: $font-family-medium;
+	font-size: $font-size-small;
+	line-height: $line-height-small;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+	height: 365px;
+}
+
+.content {
+	max-width: 800px;
+	color: $color-add-smoke;
+	font-size: $font-size-default;
+	line-height: $line-height-default;
+	letter-spacing: 0.01em;
+}

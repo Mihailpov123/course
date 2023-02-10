@@ -1,0 +1,72 @@
+@import "../../scss/vars";
+
+.row {
+	padding: 40px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+}
+
+.link {
+	text-decoration: none;
+
+	&--navigation {
+		color: $color-white;
+		font-family: $font-family-medium;
+		font-size: $font-size-normal;
+		text-transform: uppercase;
+		line-height: $line-height-extra-small;
+	}
+}
+
+.info {
+	display: flex;
+	column-gap: 50px;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+}
+
+.phone {
+	margin-bottom: 10px;
+	color: $color-white;
+	font-size: $font-size-extra-large;
+	line-height: $line-height-extra-small;
+	white-space: nowrap;
+}
+
+.email {
+	opacity: 0.7;
+	color: $color-white;
+	font-size: $font-size-default;
+	line-height: $line-height-extra-small;
+}
+
+.address {
+	display: flex;
+	align-items: center;
+	column-gap: 14px;
+
+	&__info {
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-small;
+	}
+}
+
+.bottom {
+	padding: 16px 0 20px;
+	color: $color-light-smoke;
+	font-size: $font-size-light;
+	line-height: $line-height-extra-small;
+}

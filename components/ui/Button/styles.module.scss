@@ -1,0 +1,47 @@
+@import "scss/vars";
+
+.button {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 46px;
+	padding: 0 24px;
+	border: 1px solid $color-orange;
+	outline: none;
+	background: $color-orange;
+	border-radius: 2px;
+	color: $color-white;
+	font-family: $font-family-regular;
+	font-size: $font-size-medium;
+	text-decoration: unset;
+	text-align: center;
+	line-height: $line-height-small;
+	cursor: pointer;
+	transition: 0.5s;
+	
+	&:hover {
+		background-color: transparent;
+		color: $color-orange;
+	}
+
+	&--dark {
+		background-color: transparent;
+		color: $color-orange;
+
+		&:hover {
+			background-color: transparent;
+			color: $color-orange;
+		}
+	}
+
+	&--disabled {
+		
+		cursor: not-allowed;
+
+		&:hover {
+			background: $color-orange;
+			color: $color-white;
+		}
+	}
+}

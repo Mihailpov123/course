@@ -1,0 +1,70 @@
+@import "../../scss/vars";
+
+.form {
+	max-width: 848px;
+	margin: 0 auto;
+	padding: 50px 0 50px;
+
+	&__wrap {
+		background-color: $color-light-blue;
+	}
+
+	&__messageSuccess {
+		margin-bottom: 5px;
+		color: $color--green;
+	}
+
+	&__inputError {
+		margin-top: 5px;
+		color: $color-red;
+	}
+}
+
+.title {
+	margin-bottom: 32px;
+	color: $color-white;
+	font-size: $font-size-big;
+	text-align: center;
+	line-height: $line-height-small;
+}
+
+.fields {
+	display: flex;
+	margin-bottom: 24px;
+	column-gap: 16px;
+}
+
+.field {
+	width: 100%;
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	column-gap: 54px;
+}
+
+.btnSubmit {
+	width: 184px;
+
+	&__text {
+		display: flex;
+		column-gap: 10px;
+	}
+
+	&__preloader {
+		width: 24px;
+	}
+}
+
+.checkbox {
+
+	&__text {
+		margin-top: 3px;
+	}
+
+	&__link {
+		color: $color-orange;
+		text-decoration: none;
+	}
+}

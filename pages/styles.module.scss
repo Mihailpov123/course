@@ -1,0 +1,92 @@
+@import "scss/vars";
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 60px 0 60px;
+}
+
+.aboutCompany {
+	padding: 60px 0 60px;
+
+	&__wrap {
+		background-color: $color-light-blue;
+	}
+}
+
+.aboutCompanyBlocks {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1px;
+}
+
+.aboutCompanyBlocks {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1px;
+}
+
+.aboutBlocks {
+
+}
+
+.about-company-block {
+	display: flex;
+	column-gap: 1px;
+	
+	&--reverse {
+		flex-direction: row-reverse;
+	}
+}
+
+.block {
+	box-sizing: border-box;
+	width: 50%;
+	height: 418px;
+	outline: 1px solid rgba(255, 255, 255, 0.1);
+
+	&--text {
+		padding: 48px 48px 64px;
+	
+		background-color: $color-dark-blue;
+		font-size: $font-size-extra-medium;
+		line-height: $line-height-default;
+	}
+
+	&--image {
+		padding: 48px;
+	}
+}
+
+.image {
+	position: relative;
+	height: 100%;
+}
+
+.title {
+	margin-bottom: 40px;
+	font-size: $font-size-big;
+	line-height: $line-height-small;
+}
+
+.advantages {
+
+	&__content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 1px;
+	}
+}
+
+.news__wrap {
+	display: flex;
+	margin-bottom: 32px;
+	column-gap: 1px;
+}
+
+.btnAllNews {
+	
+	width: 320px;
+	margin: 0 auto;
+	font-size: $font-size-extra-medium;
+}

@@ -1,0 +1,28 @@
+@import "scss/vars";
+
+.wrap {
+	position: relative;
+	width: 100%;
+	height: 124px;
+}
+
+.input {
+	box-sizing: border-box;
+	width: inherit;
+	height: inherit;
+	padding: 19px 24px;
+	border: none;
+	outline: none;
+	background-color: $color-dark-smoke;
+	border-radius: 2px;
+	color: $color-white;
+	font-size: $font-size-extra-medium;
+	line-height: 126%;
+	resize: none;
+
+	&::placeholder {
+		color: $color-smoke;
+		font-size: $font-size-extra-medium;
+		line-height: 126%;
+	}
+}

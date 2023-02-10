@@ -1,0 +1,70 @@
+@import "scss/vars";
+
+.checkbox {
+	position: relative;
+	display: flex;
+}
+
+.control {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+
+	&+ label {
+		position: relative;
+		display: inline-flex;
+		width: 100%;
+		margin-top: 5px;
+		color: $color-light-smoke;
+		font-family: $font-family-regular;
+		font-size: $font-size-small;
+		line-height: $line-height-small;
+		user-select: none;
+		cursor: pointer;
+		transition: 0.5s;
+
+		&:before {
+			content: "";
+			box-sizing: border-box;
+			display: inline-block;
+			flex-grow: 0;
+			flex-shrink: 0;
+			width: 20px;
+			height: 20px;
+			margin-right: 12px;
+			background: $color-light-black;
+			transition: 0.5s;
+		}
+
+		&:after {
+			content: "";
+			box-sizing: border-box;
+			position: absolute;
+			top: -5px;
+			bottom: 0;
+			left: 8px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 5px;
+			height: 10px;
+			margin: auto;
+			transform: rotate(45deg);
+			border-bottom: 2px solid $color-orange;
+			border-right: 2px solid $color-orange;
+			opacity: 0;
+			background-color: transparent;
+			transition: 0.5s;
+		}
+	}
+
+	&:checked {
+
+		&+ label {
+
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+@import "scss/vars";
+
+.vacancy {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 319px;
+	height: 326px;
+	padding: 25px 32px 32px;
+	outline: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.title {
+	margin-bottom: 16px;
+	font-family: $font-family-medium;
+	font-size: $font-size-extra-medium;
+	line-height: $line-height-small;
+}
+
+.preview {
+	margin-bottom: 16px;
+
+	&__item {
+		color: $color-light-smoke;
+		font-size: $font-size-normal;
+		line-height: $line-height-normal;
+	}
+}
+
+.price {
+	color: $color-orange;
+	font-family: $font-family-medium;
+	font-size: $font-size-extra-medium;
+	line-height: $line-height-small;
+}
+
+.btnMore {
+	width: 122px;
+	height: 33px;
+	margin-top: auto;
+	font-size: $font-size-light;
+}

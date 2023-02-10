@@ -1,0 +1,47 @@
+@import "../../scss/vars";
+
+.advantage-block {
+	box-sizing: border-box;
+	height: 454px;
+	padding: 40px 40px 90px;
+	outline: 1px solid rgba(255, 255, 255, 0.1);
+	transition: 0.5s;
+	
+	&:hover {
+		background-color: $color-orange;
+		
+		.icon {
+
+			path {
+				stroke: $color-white;
+			}
+		}
+
+		.info {
+			color: $color-white;
+		}
+	}
+}
+
+.icon {
+	margin-bottom: 57px;
+
+	path {
+		transition: 0.5s;
+	}
+}
+
+.title {
+	margin-bottom: 16px;
+	font-family: $font-family-medium;
+	font-size: $font-size-large;
+	text-transform: uppercase;
+	line-height: $line-height-small;
+}
+
+.info {
+	color: $color-light-smoke;
+	font-size: $font-size-light;
+	line-height: $line-height-default;
+	transition: 0.5s;
+}
